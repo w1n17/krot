@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Страница авторизации</title> 
+</head>
+
+<body>
+    <h1 id="w1n17">Авторизуйтесь для входа на "секретные" страницы</h1>
+    <label for="username">Username:</label>
+    <inpur type="text" id="username" placeholder="Логин">
+
+        <br><br>
+    <label>Password:</label>   
+    <input type="password" id="password" placeholder="Пароль">
+
+    <br><br>
+    <input type="button" value="Войти" onclick="login()">
+
+</body>
+
+<script> 
+    function login() {
+elem = document.getElementById('w1n17')
+elem.innerHTML = "Внутри данного элемента будет этот текст"
+    }
+</script>
+
+</html>
